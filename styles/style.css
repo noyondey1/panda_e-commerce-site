@@ -1,0 +1,30 @@
+.panda-bg{
+    background-color: #FEEAE9;
+}
+
+.panda-btn-buy-now {
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    border-radius: 6px;
+    padding: 9px 25px;
+    color: white;
+    border: none;
+}
+
+
+main{
+    padding: 3rem 0;
+    background-color: #F4F4F4;
+}
+
+.carousel{
+    margin: 3rem 0;
+}
+
+.subscribe{
+    height: 455px;
+    background-color: #FEEAE9;
+}
+
+.panda-fluid{
+    padding: 71px 0;
+}
