@@ -36,10 +36,13 @@
                             <a class="nav-link" href="#products">Product</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" href="#about">About Us</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#contact">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#faq">FAQ's</a>
                         </li>
                     </ul>
                 </div>
@@ -58,8 +61,8 @@
                 </div>
                 <div class="carousel-inner rounded-3">
                     <div class="carousel-item active panda-bg">
-                        <div class="row d-flex align-items-center p-5 panda-bg-info">
-                            <div class="col-lg-7">
+                        <div class="row d-flex align-items-center flex-column-reverse flex-md-column-reverse flex-lg-row p-5 panda-bg-info">
+                            <div class="col-lg-7 mt-sm-5 mt-md-5">
                                 <h1>Cool Dude Headphone</h1>
                                 <p>This is the best headphone in the world who just want to waste time in front of funky
                                     world.</p>
@@ -72,21 +75,21 @@
                         </div>
                     </div>
                     <div class="carousel-item panda-bg">
-                        <div class="row d-flex align-items-center p-5 panda-bg-info">
-                            <div class="col-lg-7">
+                        <div class="row d-flex align-items-center flex-column-reverse flex-md-column-reverse p-5 panda-bg-info">
+                            <div class="col-lg-7 mt-sm-5 mt-md-5">
                                 <h1>Mi LED TV 4A PRO 32</h1>
                                 <p>This is the best Smart TV in the world who just want to waste time in front of funky
                                     world.</p>
                                 <h1>&dollar;1289</h1>
                                 <button class="btn panda-btn-buy-now">Buy Now</button>
                             </div>
-                            <div class="col-lg-5">
+                            <div class="col-lg-5 mt-sm-5 mt-md-5">
                                 <img src="./images/banner-images/tv.png" class="d-block w-100" alt="...">
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item panda-bg">
-                        <div class="row d-flex align-items-center p-5 panda-bg-info">
+                        <div class="row d-flex align-items-center flex-column-reverse flex-md-column-reverse p-5 panda-bg-info">
                             <div class="col-lg-7">
                                 <h1>X-box for everyone</h1>
                                 <p>This is the best X-box in the world who just want to waste time in front of funky
@@ -261,10 +264,13 @@
                 <div class="text-center">
                     <h1>LET'S STAY IN TOUCH</h1>
                     <p>Get updates on sales specials and more</p>
+                    <div class="mb-1">
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
+                    </div>
                     <div class="d-flex flex-column">
                         <div class="mb-1">
                             <input type="email" class="form-control" id="exampleFormControlInput1"
-                                placeholder="name@example.com">
+                                placeholder="Your Email">
                         </div>
                         <div class="mb-3">
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
@@ -274,6 +280,95 @@
                     </div>
                 </div>
             </section>
+        </section>
+        <!-- FAQ's -->
+        <section class="container mt-5" id="faq">
+            <h1 class="mb-4">Frequently Asked Question's</h1>
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                            aria-controls="panelsStayOpen-collapseOne">
+                            <h4>What is the status of my order?</h4>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                        aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                        <p>Once you have placed your order, we will send you a confirmation email to track the status of your order. Once your order is shipped we will send you another email to confirm you the expected
+                            delivery date as well as the link to track your order (when the delivery method allows
+                            it).Additionally, you can track the status of your order from your "order history" section
+                            on your account page on the website.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwo">
+                            <h4>Can I change my order?</h4>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body">
+                            <p>We can only change orders that have not been processed for shipping yet. Once your order is under the status "preparing for shipping", "shipping" or "delivered", then we cannot accept any edits to your order. To make changes to your order, please reach out to support through the helpdesk.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThree">
+                            <h4>What payment methods do you accept?</h4>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                            <p>You can purchase on our website using a debit or credit card. We additionnaly offer support for Paypal, Amazon Pay, Apple Pay, and Google Pay. You can chose these payment methods at checkout.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFour">
+                            <h4>Which currency will I be charged in?</h4>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingFour">
+                        <div class="accordion-body">
+                            <p>We currently only support the following currencies for charging our customers in their local currencies: BDT, USD, CAD and EUR. If your credit or debit card use another currency, then you will be charged in BDT, USD, CAD or EUR, depending on the website you are on. Your bank will apply the corresponding  conversation rate of the currency you choose.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About us -->
+        <section class="container my-5" id="about">
+            <h1 class="mb-4">About Us</h1>
+            <p style="text-align: justify;">
+                Welcome to panda-e-commerce, your number one source for all things. We're dedicated to providing you the very best of products, with an emphasis on certain stores.
+                
+                
+                Founded in 2021 by Programming Hero, panda-e-commerce has come a long way from its beginnings in  Bangladesh. When Programming Hero first started out, their passion for [brand message - e.g. "eco-friendly cleaning products"] drove them to start their own business.
+                
+                
+                We hope you enjoy our products as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact us.
+                
+                <br>
+                <br>
+                Sincerely,
+                <br>
+                Programming Hero
+                
+                </p>
         </section>
     </main>
 
@@ -288,5 +383,6 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
 </body>
+
 
 </html>
