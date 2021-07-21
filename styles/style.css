@@ -28,3 +28,11 @@ main{
 .panda-fluid{
     padding: 71px 0;
 }
+.btn-hover{
+    transition: transform 0.3s linear;
+}
+.btn-hover:hover{
+    background: transparent;
+    color: black;
+    transform: scale(0.95);
+}
